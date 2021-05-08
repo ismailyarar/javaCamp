@@ -12,9 +12,9 @@ import com.spring.northwind.entities.concretes.Product;
 @Service
 public class ProductManager implements ProductService {
 
-	//DI
+	// DI
 	private ProductDao productDao;
-	
+
 	@Autowired
 	public ProductManager(ProductDao productDao) {
 		super();
